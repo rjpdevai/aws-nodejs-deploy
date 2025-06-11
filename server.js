@@ -5,6 +5,6 @@ app.get('/api/get', (req, res) => {
     res.send({ message: "Hello world from node js" })
 });
 
-app.listen(5000, () => {
+app.listen(8000, () => {
     console.log('App running at port 5000');
 });
